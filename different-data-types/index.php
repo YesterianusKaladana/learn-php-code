@@ -9,7 +9,7 @@
 <body>
     <?php
     //string
-    $name = 'Just A Dream';
+    $name = 'Coding is fun';
 
     //Integer
     $namee = 20;
