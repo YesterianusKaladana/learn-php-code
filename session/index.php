@@ -20,7 +20,7 @@ session_start();
 
     <?php
 
-    $_SESSION['username'] = "sepo948a";
+    $_SESSION['username'] = "sepo947a";
     echo $_SESSION['username'];
 
     if (!isset($_SESSION['username'])) {
