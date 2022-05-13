@@ -1,10 +1,16 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <title> How to Start a Session in PHP</title>
+    <title> CONTACT</title>
     <link rel="stylesheet" stye="text/css" href="style.css">
 </head>
+
 <body>
 
     <ul>
@@ -13,8 +19,12 @@
     </ul>
 
     <?php
-    
+
+    $_SESSION['username'] = "sepo948a";
+    echo $_SESSION['username'];
+
     ?>
-    
+
 </body>
+
 </html>
